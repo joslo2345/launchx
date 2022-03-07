@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Mordisco</title>
+</head>
+<body>
+    <div id="logo_eslogan">
+        <img src="./imagenes/logo mordisco.png" alt="logo pastelería mordisco" width="300px" height="200px">
+        <h1>Bienvenido a Pasteleria Mordisco</h1>
+        <h2>Donde cada mordida esta llena de sabor</h2>
+    </div>
+    <div id="pedido">
+        <p>Aquí puedes realizar tu pedido</p>
+        <form action="pedido_cliente.js">
+            <label for="nombre">Ingrese su nombre</label><br>
+            <input type="number" id="nombre" name="nombre" placeholder="nombre">
+            <br>
+            <label for="direccion">Ingresa la direccion de envio</label><br>
+            <input type="text" name="direccion" id="direccion" placeholder="cueva 12345 ciudad gotica"><br>
+            <label for="telefono">Ingrese su Telefono</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="123456789"><br>
+            <label for="correo">Ingrese su correo</label><br>
+            <input type="email" id="correo" name="correo" placeholder="mordisco@gmail.com"><br>
+
+            <p>Tamaño del pastel</p>
+            <input type="radio" id="chico" name="tamanospastel" value="Chico">
+            <label for="chico">Chico</label><br>
+            <input type="radio" id="mediano" name="tamanospastel" value="Grande">
+            <label for="mediano">Mediano</label><br>
+            <input type="radio" id="grande" name="tamanospastel" value="Mediano">
+            <label for="grande">Grande</label><br>
+            <input type="radio" id="jumbo" name="tamanospastel" value="Grande">
+            <label for="jumbo">Jumbo</label><br>
+
+            <p>Sabor o sabores del pastel</p>
+            <input type="checkbox" id="vainilla" name="vainilla">
+            <label for="vainilla">Vainilla</label>
+            <input type="checkbox" id="chocolate" name="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="checkbox" id="fresa" name="fresa">
+            <label for="fresa">Fresa</label>
+            <input type="checkbox" id="limon" name="limon">
+            <label for="limon">Limón</label>
+            <input type="checkbox" id="cajeta" name="cajeta">
+            <label for="cajeta">Cajeta</label><br>
+
+            <p>Adorno o adornos para tu pastel</p>
+            <input type="checkbox" id="trozosFresa" name="trozosFresa">
+            <label for="trozosFresa">Trozos de Fresa</label>
+            <input type="checkbox" id="trozosChocolate" name="trozosChocolate">
+            <label for="trozosChocolate">Trozos de chocolate</label>
+            <input type="checkbox" id="trozosHojaldre" name="trozosHojaldre">
+            <label for="trozosHojaldre">Trozos de Hojaldre</label>
+            <input type="checkbox" id="estrellasFondan" name="estrellasFondan">
+            <label for="estrellasFondan">Estrellas de Fondan</label>
+            <input type="checkbox" id="obleasCajeta" name="obleasCajeta">
+            <label for="obleasCajeta">Obleas de cajeta</label>
+        </form>
+    </div>
+    <a href="">
+        <button>Hacer pedido aquí</button>
+    </a>
+</body>
+</html>
