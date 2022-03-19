@@ -1,0 +1,102 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+.sec-1{
+    margin: 0;
+    padding: 0;
+}
+
+#info-and-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 25em;
+    background-color: aqua;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+}
+
+li{
+
+    height: 100px;
+    
+}
+
+
+li p{
+    text-align: center;
+    flex-grow: 4;
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+.navbar_item{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+.navbar_item_button{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    right: 25%
+}
+
+
+button{
+    background-color: #3353D1;
+}
+#information{
+    flex-basis: 50%;
+}
+#banner{
+    flex-basis: 50%;
+    height: auto;
+    background-color: blue;
+}
+#banner img{
+    width: 10em;
+    height: 10em;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#info-blocks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
