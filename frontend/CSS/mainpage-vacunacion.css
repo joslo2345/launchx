@@ -4,22 +4,22 @@ body{
     padding: 0;
     width: auto;
 }
-
 .sec-1 {
     width: auto;
     margin: 0;
     padding: 0;
+}
+.center-xy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #info-data{
     display: flex;
     background-color: rgb(7, 182, 109);
     justify-content: space-evenly;
 }
-#info-data > div > div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 .sec-2{
     background-color: aquamarine;
@@ -30,6 +30,9 @@ body{
     background-color: blueviolet;
     margin: 0;
     padding: 0;
+}
+.cero-margin-p{
+    margin: 0;
 }
 .sec-4{
     background-color: brown;
@@ -43,19 +46,12 @@ body{
     justify-content: space-between;
 }
 
-#info-and-banner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    height: 25em;
-}
-
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
     margin: 0%;
     padding: 0%;
 }
@@ -67,13 +63,6 @@ ul{
     color: black;
     background-color: white;
 }
-
-li{
-
-    height: 100px;
-    
-}
-
 
 li p{
     text-align: center;
@@ -116,18 +105,13 @@ button{
 #banner{
     flex-basis: 50%;
     background-color: blue;
+    margin-bottom: 0;
 }
 #banner img{
-    width: 10em;
-    height: 10em;
+    width: 100%;
 }
 
-#logos{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#info-blocks{
+.center_space-evenly{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -135,11 +119,6 @@ button{
 
 footer{
     background-color: gray;
-}
-#info-block{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .info-blocks-icons {
