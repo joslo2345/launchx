@@ -1,5 +1,4 @@
 body{
-    background-color: bisque;
     margin: 0;
     padding: 0;
     width: auto;
@@ -8,6 +7,7 @@ body{
     width: auto;
     margin: 0;
     padding: 0;
+    background-image: url("./background-img.jpg");
 }
 .center-xy-row{
     display: flex;
@@ -19,15 +19,19 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.center-inline{
+.center_main-axis{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+.center_cross-axis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 #info-data{
     display: flex;
-    background-color: rgb(7, 182, 109);
     width: 50%;
     justify-content: space-evenly;
     margin-left: 25%;
@@ -40,19 +44,21 @@ body{
     background-color: aquamarine;
     margin: 0;
     padding: 0;
+    background-image: url("./background-img.jpg");
 }
-.sec-2 img{
+.vaccine-logo{
     height: 50px;
 }
 .sec-2_info-block {
-    width: 25vw;
     padding-right: 5%; 
     padding-left: 5%;
+    height: auto;
 }
 .sec-3{
     background-color: blueviolet;
     margin: 0;
     padding: 0;
+    background-image: url("./background-img.jpg");
 }
 .sec-3_info-block {
     padding-right: 10%; 
@@ -71,18 +77,18 @@ body{
     background-color: brown;
     margin: 0;
     padding: 0;
+    background-image: url("./background-img.jpg");
 }
 .sec-4_icon{
     margin-left: 25%;
     width: 25px;
     height: 25px;
 }
-.center-inline{
+.sec-4_contact-block{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
 
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -96,7 +102,6 @@ ul{
     margin: 0;
     padding: 0;
     color: black;
-    background-color: white;
 }
 
 li p{
@@ -148,32 +153,7 @@ button{
     flex-direction: row;
 }
 
-footer{
-    background-color: gray;
-}
 
-.info-blocks-icons {
-    min-height: 100%;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    flex-basis: 50%;
-}
-.info-blocks-icons > div {
-    display: flex; 
-    flex-basis: calc(50% - 40px);  
-    justify-content: center;
-    flex-direction: column;
-}
-.info-blocks-icons > div > div{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgb(247, 0, 255);
-}
 .icon{
     width: 25px;
     height: 25px;
@@ -202,4 +182,19 @@ footer a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.info-blocks-contacts{
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer{
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #BDABA6;
+}
+p{
+    font-weight: bold;
 }
