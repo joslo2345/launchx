@@ -9,27 +9,60 @@ body{
     margin: 0;
     padding: 0;
 }
-.center-xy{
+.center-xy-row{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.center-xy-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #info-data{
     display: flex;
     background-color: rgb(7, 182, 109);
+    width: 50%;
     justify-content: space-evenly;
+    margin-left: 25%;
 }
-
+.flex-basis-50{
+    flex-basis: 50%;
+}
 
 .sec-2{
     background-color: aquamarine;
     margin: 0;
     padding: 0;
 }
+.sec-2 img{
+    height: 50px;
+}
+.sec-2_info-block {
+    width: 25vw;
+    padding-right: 5%; 
+    padding-left: 5%;
+}
 .sec-3{
     background-color: blueviolet;
     margin: 0;
     padding: 0;
+}
+.sec-3_info-block {
+    padding-right: 10%; 
+    padding-left: 10%;
+    text-align: center;
+}
+.sec-3-recomendations{
+    padding-left: 25%;
+    display: flex;
+    flex-direction: row;
 }
 .cero-margin-p{
     margin: 0;
@@ -39,7 +72,11 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.sec-4_icon{
+    margin-left: 25%;
+    width: 25px;
+    height: 25px;
+}
 .center-inline{
     display: flex;
     flex-direction: row;
@@ -49,11 +86,9 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 50px;
-    margin: 0%;
-    padding: 0%;
 }
 
 ul{
@@ -95,19 +130,14 @@ li p{
     right: 25%
 }
 
-
 button{
     background-color: #3353D1;
 }
-#information{
+
+.flex-basis-50{
     flex-basis: 50%;
 }
-#banner{
-    flex-basis: 50%;
-    background-color: blue;
-    margin-bottom: 0;
-}
-#banner img{
+.flex-basis-50 #banner{
     width: 100%;
 }
 
@@ -115,6 +145,7 @@ button{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
 }
 
 footer{
