@@ -17,4 +17,12 @@ Introduccion a HTML:
 En esta semana se tuvo la introducción a HTML donde se vieron lo diferentes tags empezando por los más básicos.
 
 Se tuvo la parte de practicas donde se nos dio el requerimiento de crear un sitio web para hacer pedidos a una pasteleria.
-Donde se tendrian minimo tres paginas una para el [menu](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/menu_cliente.html) otra para el [pedido del cliente](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/pedido_cliente.html) y por último una pagina para el [pastelero](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/menu_pastelero.html)
+Donde se tendrian minimo tres paginas una para el [menu](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/menu_cliente.html) otra para el [pedido del cliente](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/pedido_cliente.html) y por último una pagina para el [pastelero](https://github.com/joslo2345/launchx/blob/main/frontend/HTML/menu_pastelero.html).
+
+## CSS - Semana 3
+Introdución a CSS:
+
+En esta semana se tuvo la introdución a CSS donde se vieron los fundamentos de los estilos que aplican mediante referencia a los tags, a clases, ids y la sintaxis en general.
+
+Para la práctica de esta semana se nos pidio hacer un clon de una pagina de información sobre las vacunas disponibles contra COVID-19.
+Teniendo el [plan de mercadotecnia](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/Planeaci%C3%B3n%20de%20campa%C3%B1a.pdf), el archivo [HTML](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.html), el archivo [CSS](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.css) y por ultimo un vista de [sitio](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/full-web-page.png)
