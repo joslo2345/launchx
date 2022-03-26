@@ -25,4 +25,11 @@ Introdución a CSS:
 En esta semana se tuvo la introdución a CSS donde se vieron los fundamentos de los estilos que aplican mediante referencia a los tags, a clases, ids y la sintaxis en general.
 
 Para la práctica de esta semana se nos pidio hacer un clon de una pagina de información sobre las vacunas disponibles contra COVID-19.
-Teniendo el [plan de mercadotecnia](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/Planeaci%C3%B3n%20de%20campa%C3%B1a.pdf), el archivo [HTML](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.html), el archivo [CSS](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.css) y por ultimo un vista de [sitio](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/full-web-page.png)
+Teniendo el [plan de mercadotecnia](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/Planeaci%C3%B3n%20de%20campa%C3%B1a.pdf), el archivo [HTML](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.html), el archivo [CSS](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/mainpage-vacunacion.css) y por ultimo una vista del [sitio](https://github.com/joslo2345/launchx/blob/main/frontend/CSS/full-web-page.png).
+
+## JavaScript - Semana 4
+Introduccion a JavaScript:
+
+En esta semana se tuvo la introducción a JavaScript donde se vieron los fundamentos de la sintaxis, bloques de condicionales, variables, bloques de ciclos, etc.
+
+Para la práctica de esta semana se nos pidio hacer una pagina web donde se pudiera consultar tu pokemon deseado y ser un tipo pokedex donde se realizo el [CSS](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.css), [HMTL](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.html) y [JavaScript](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.js) y por último una vista del [sitio]()
