@@ -33,3 +33,11 @@ Introduccion a JavaScript:
 En esta semana se tuvo la introducción a JavaScript donde se vieron los fundamentos de la sintaxis, bloques de condicionales, variables, bloques de ciclos, etc.
 
 Para la práctica de esta semana se nos pidio hacer una pagina web donde se pudiera consultar tu pokemon deseado y ser un tipo pokedex donde se realizo el [CSS](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.css), [HMTL](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.html) y [JavaScript](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex.js) y por último una vista del [sitio](https://github.com/joslo2345/launchx/blob/main/frontend/Javascript/pokedex-webpage.png)
+
+## VueJS - Semana 5
+Introducción a FrameWork VUEJS
+
+En esta semana se tuvo la introducción al framework de VueJS donde se vieron los fundamentos de este framework así como ejemplos practicos.
+
+Para la práctica de esta semana se nos pidio realizar la practica de un menu para un cliente de una pasteleria, así como su formulario y un menu para el pastelero utilizando VueJS.
+Aquí se tiene la pagina terminada [Practica](https://github.com/joslo2345/launchx/tree/main/frontend/vue-pratice)
